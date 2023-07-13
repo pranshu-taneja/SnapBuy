@@ -7,7 +7,7 @@ import { Product as apiData } from "../types";
 
 function Home() {
 
-  const { data, isLoading, isFetching, isError, isSuccess } =
+  const { data, isLoading, isError, isSuccess } =
     useProductsQuery("");
 
   return (

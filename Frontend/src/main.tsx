@@ -11,6 +11,7 @@ import Product from "./Pages/Product.tsx";
 import Cart from "./Pages/Cart.tsx";
 import User from "./Pages/User.tsx";
 import Navbar from "./components/Navbar.tsx";
+import MyProducts from "./Pages/MyProducts.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -24,8 +25,8 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
             <Route path="/Home" element={<Home></Home>}></Route>
             <Route path="/Product/:id" element={<Product></Product>}></Route>
             <Route path="/Cart" element={<Cart></Cart>}></Route>
-            <Route path="/Cart" element={<Cart></Cart>}></Route>
             <Route path="/User" element={<User></User>}></Route>
+            <Route path="/MyProducts" element={<MyProducts></MyProducts>}></Route>
           </Routes>
         </div>
       </Provider>

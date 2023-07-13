@@ -13,7 +13,7 @@ function Navbar() {
             <div className="FirstHalfTitles">
                 <ul>
                     <li><Link to="/home">Home</Link></li>
-                    <li><Link to="/product">Product</Link></li>
+                    <li><Link to="/myproducts">MyProducts</Link></li>
                     <li><Link to="/cart">Cart <sup>{CartItems.length-1}</sup></Link></li>
                 </ul>
             </div>
