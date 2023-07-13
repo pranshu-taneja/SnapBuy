@@ -1,0 +1,26 @@
+.ProductWrapper {
+    margin: 2rem;
+    width: 13rem;
+    height: 20rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.ProductTitle {
+    overflow: hidden;
+}
+
+.ProductTitle > a:hover{
+    color: #747bff;
+}
+.ProductTitle > a{
+    color: rgb(32, 32, 32);
+}
+
+

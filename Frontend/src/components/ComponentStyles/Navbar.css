@@ -1,0 +1,56 @@
+.NavWrapper {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+}
+
+
+.InnerNavWrapper {
+    height: 10vh;
+    width: 90vw;
+    margin: 1rem;
+    padding: 0.5rem;
+
+
+    /* background-color: white;
+    border-radius: 0.5rem; */
+
+
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 2rem;
+
+    /* Blurred Backgroud */
+    background: rgba(255, 255, 255, 0.55);
+    /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.FirstHalfTitles>ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.SecondHalfTitles>ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    gap: 2rem;
+    justify-content: start;
+    margin-right: 2rem;
+}
+
+
+a:hover{
+    transition: all ease-in 0.1s;
+    transform: scaleX(2);
+}

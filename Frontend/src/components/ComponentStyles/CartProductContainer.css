@@ -1,0 +1,26 @@
+.CartProductWrapper {
+    margin: 2rem;
+    width: 13rem;
+    height: 20rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.CartProductTitle {
+    overflow: hidden;
+}
+
+.CartProductTitle > a:hover{
+    color: #747bff;
+}
+.CartProductTitle > a{
+    color: rgb(32, 32, 32);
+}
+
+
