@@ -8,9 +8,6 @@ function Product() {
   let value = id ? id.toString() : "";
   const { data, isLoading, isError, isSuccess } = useProductQuery(value);
 
-  {
-    console.log(data);
-  }
   return (
     <>
       {isLoading && <div>...Loading🐶</div>}
